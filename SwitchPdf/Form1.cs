@@ -20,6 +20,12 @@ namespace SwitchPdf
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
+
+        /// <summary>
+        /// 提取数据库
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             this.pictureBox1.Show();
