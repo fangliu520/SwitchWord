@@ -105,7 +105,11 @@ namespace SwitchPdf
             sw.Close();
 
         }
-
+        /// <summary>
+        /// 打开目录用以存储需要提取转换的word
+        /// </summary>
+        /// <param name="sender">对象</param>
+        /// <param name="e">参数</param>
         private void button2_Click(object sender, EventArgs e)
         {
             string direct = Directory.GetCurrentDirectory() + "\\word\\";
