@@ -24,7 +24,11 @@ namespace SwitchPdf
 {
     public class SubStr
     {
-
+        /// <summary>
+        /// 提取数据
+        /// </summary>
+        /// <param name="c"></param>
+        /// <returns></returns>
         public ApplyInfo GetInfo(string c)
         {
             ApplyInfo info = new ApplyInfo();
